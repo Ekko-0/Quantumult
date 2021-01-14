@@ -4,9 +4,10 @@
 
 ```
 [general]
-geo_location_checker=http://api.live.bilibili.com/ip_service/v1/ip_service/get_ip_addr?, https://raw.githubusercontent.com/ConnersHua/Quantumult/master/geo_location_checker.js
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Ekko-0/Quantumult/master/geo_location_checker.js
 ```
 
 ## 鸣谢
 
 - [KOP-XIAO / QuantumultX](https://github.com/KOP-XIAO/QuantumultX/)
+- [ConnersHua / Quantumult](https://github.com/ConnersHua/Quantumult/)
