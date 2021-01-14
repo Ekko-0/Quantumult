@@ -36,9 +36,9 @@ let body = $response.body;
 
 let obj = JSON.parse(body);
 
-let emoji = flags.get(obj['country']) ? flags.get(obj['country']) : "🏴‍☠️"
-emoji = City_ValidCheck(obj['country']) === "香港" ? "🇭🇰️" : emoji
-emoji = City_ValidCheck(obj['country']) === "澳门" ? "️🇲🇴️" : emoji
+let emoji = flags.get(obj['countryCode']) ? flags.get(obj['countryCode']) : "🏴‍☠️"
+emoji = City_ValidCheck(obj['countryCode']) === "香港" ? "🇭🇰️" : emoji
+emoji = City_ValidCheck(obj['countryCode']) === "澳门" ? "️🇲🇴️" : emoji
 // emoji = City_ValidCheck(obj['country']) === "台湾"? "️️🇹🇼":emoji
 
 let title = `${emoji} | ${City_ValidCheck(para)}`;
