@@ -41,7 +41,7 @@ emoji = City_ValidCheck(obj['country']) === "香港" ? "🇭🇰️" : emoji
 emoji = City_ValidCheck(obj['country']) === "澳门" ? "️🇲🇴️" : emoji
 emoji = City_ValidCheck(obj['country']) === "台湾"? "️️🇹🇼":emoji
 
-var title = `${emoji} | ${City_ValidCheck(para)}`;
+var title = `${emoji} | ${City_ValidCheck(obj['city'])}`;
 
 var subtitle = `🌐 | ${ISP_ValidCheck(obj['isp'])}`;
 
